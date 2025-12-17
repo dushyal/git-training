@@ -1,0 +1,9 @@
+/*! tailwindcss v4.1.18 | MIT License | https://tailwindcss.com */
+.scheme-light {
+  color-scheme: light;
+}
+.dark\:scheme-dark {
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
